@@ -1,0 +1,23 @@
+[package]
+name = "client"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies.windows-core]
+path = "/git/windows-rs/crates/libs/core"
+
+[dependencies.windows]
+path = "/git/windows-rs/crates/libs/windows"
+features = [
+    "implement",
+    "Foundation",
+    "Win32_Foundation",
+]
+
+[build-dependencies.windows-bindgen]
+path = "/git/windows-rs/crates/libs/bindgen"
+
+# Note: https://github.com/rust-lang/cargo/issues/7825
+[build-dependencies.server]
+path = "../../server/rust"

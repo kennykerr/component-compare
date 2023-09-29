@@ -1,0 +1,28 @@
+[package]
+name = "server"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "test"
+crate-type = ["cdylib"]
+
+[dependencies.windows-core]
+path = "/git/windows-rs/crates/libs/core"
+
+[dependencies.windows]
+path = "/git/windows-rs/crates/libs/windows"
+features = [
+    "implement",
+    "Foundation",
+    "Win32_Foundation",
+    "Win32_System_WinRT",
+]
+
+[build-dependencies.windows-bindgen]
+path = "/git/windows-rs/crates/libs/bindgen"
+
+# Note: https://github.com/rust-lang/cargo/issues/7825
+[build-dependencies.metadata]
+path = "../../metadata"

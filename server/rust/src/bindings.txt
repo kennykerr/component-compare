@@ -1,0 +1,4 @@
+--in ../../metadata/test.winmd
+--out src/bindings.rs
+--config implement
+--filter Test

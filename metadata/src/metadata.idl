@@ -1,0 +1,16 @@
+namespace Test
+{
+    runtimeclass Reader
+    {
+        Reader();
+        String P0 { get; };
+        String P1 { get; };
+    }
+    
+    runtimeclass Writer
+    {
+        Writer();
+        String P0;
+        String P1;
+    }
+}

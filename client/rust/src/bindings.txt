@@ -1,0 +1,3 @@
+--in ../../metadata/test.winmd
+--out src/bindings.rs
+--filter Test
