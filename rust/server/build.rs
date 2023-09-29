@@ -1,3 +1,5 @@
+use windows_bindgen::*;
+
 fn main() {
     println!("cargo:rerun-if-changed=src/metadata.idl");
     let metadata_dir = format!("{}/System32/WinMetadata", env!("windir"));
@@ -18,5 +20,13 @@ fn main() {
 
     if !command.status().unwrap().success() {
         panic!("Failed to run midlrt");
+    }
+
+    match bindgen(["--etc", "src/bindings.txt"]) {
+        Ok(ok) => println!("{}", ok),
+        Err(error) => {
+            eprintln!("{}", error);
+            std::process::exit(1);
+        }
     }
 }

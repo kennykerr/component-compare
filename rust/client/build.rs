@@ -11,7 +11,6 @@ fn main() {
 
     let mut to = std::path::PathBuf::from(std::env::var("CARGO_MANIFEST_DIR").unwrap());
     to.pop();
-    to.pop();
     to.push("target");
     to.push(std::env::var("PROFILE").unwrap());
 

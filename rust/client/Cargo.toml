@@ -20,4 +20,4 @@ path = "/git/windows-rs/crates/libs/bindgen"
 
 # Note: https://github.com/rust-lang/cargo/issues/7825
 [build-dependencies.server]
-path = "../../server/rust"
+path = "../server"

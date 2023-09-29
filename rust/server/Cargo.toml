@@ -22,7 +22,3 @@ features = [
 
 [build-dependencies.windows-bindgen]
 path = "/git/windows-rs/crates/libs/bindgen"
-
-# Note: https://github.com/rust-lang/cargo/issues/7825
-[build-dependencies.metadata]
-path = "../../metadata"

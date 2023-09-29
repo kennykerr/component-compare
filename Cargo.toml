@@ -1,7 +1,0 @@
-[workspace]
-resolver = "2"
-members = [
-    "metadata",
-    "server/rust",
-    "client/rust",
-]
