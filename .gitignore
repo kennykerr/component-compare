@@ -1,0 +1,11 @@
+﻿obj
+.vs
+bin
+obj
+Debug
+Release
+Generated Files
+packages
+target
+*.user
+*.lock
