@@ -1,6 +1,6 @@
 mod bindings;
 use bindings::*;
-use windows::{core::*};
+use windows::core::*;
 
 fn main() -> Result<()> {
     let reader = Reader::new()?;

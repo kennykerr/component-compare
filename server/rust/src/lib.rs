@@ -26,7 +26,7 @@ impl IActivationFactory_Impl for ReaderFactory {
 }
 
 #[implement(bindings::Writer)]
-struct Writer(RwLock<[HSTRING;2]>);
+struct Writer(RwLock<[HSTRING; 2]>);
 
 impl bindings::IWriter_Impl for Writer {
     fn P0(&self) -> Result<HSTRING> {
