@@ -8,8 +8,11 @@ fn main() -> Result<()> {
     assert_eq!(reader.P1()?, "P1");
 
     let writer = Writer::new()?;
-    writer.SetP0(h!("V0"))?;
-    assert_eq!(writer.P0()?, "V0");
+    writer.SetP0(h!("0"))?;
+    writer.SetP1(h!("1"))?;
+
+    assert_eq!(writer.P0()?, "0");
+    assert_eq!(writer.P1()?, "1");
 
     Ok(())
 }
