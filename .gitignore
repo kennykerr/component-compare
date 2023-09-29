@@ -9,3 +9,4 @@ packages
 target
 *.user
 *.lock
+*.winmd
