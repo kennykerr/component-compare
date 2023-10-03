@@ -1,4 +1,4 @@
---in test.winmd
+--in server.winmd
 --out src/bindings.rs
 --config implement
---filter Test
+--filter Server

@@ -67,8 +67,8 @@ unsafe extern "system" fn DllGetActivationFactory(
     // TODO: this to_string conversion seems wasteful. Should be able to compare
     // these to h!("...") in the match expression.
     let factory: Option<IActivationFactory> = match (*name).to_string().as_str() {
-        "Test.Reader" => Some(ReaderFactory.into()),
-        "Test.Writer" => Some(WriterFactory.into()),
+        "Server.Reader" => Some(ReaderFactory.into()),
+        "Server.Writer" => Some(WriterFactory.into()),
         _ => None,
     };
 

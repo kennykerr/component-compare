@@ -15,7 +15,7 @@ fn main() {
         .arg("/reference")
         .arg(format!("{metadata_dir}/Windows.Foundation.winmd"))
         .arg("/winmd")
-        .arg("test.winmd")
+        .arg("server.winmd")
         .arg("src/metadata.idl");
 
     if !command.status().unwrap().success() {

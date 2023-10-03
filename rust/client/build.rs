@@ -16,9 +16,9 @@ fn main() {
 
     let mut from = to.clone();
     from.push("deps");
-    from.push("test.dll");
+    from.push("server.dll");
 
-    to.push("test.dll");
+    to.push("server.dll");
 
     std::fs::copy(from, to).unwrap();
 }
