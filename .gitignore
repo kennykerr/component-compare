@@ -10,3 +10,4 @@ target
 *.user
 *.lock
 *.winmd
+bindings.rs
