@@ -4,3 +4,9 @@ members = [
     "server",
     "client",
 ]
+
+[profile.release]
+opt-level = "z"
+# these options are not compatible with `-C prefer-dynamic`
+# lto = true
+# panic = "abort"
