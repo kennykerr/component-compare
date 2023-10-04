@@ -20,5 +20,6 @@ fn main() {
 
     to.push("server.dll");
 
-    std::fs::copy(from, to).unwrap();
+    // Bug: https://github.com/rust-lang/cargo/issues/9661
+    _ = std::fs::copy(from, to);
 }

@@ -5,10 +5,10 @@ edition = "2021"
 publish = false
 
 [dependencies.windows-core]
-path = "/git/windows-rs/crates/libs/core"
+version = "0.51"
 
 [dependencies.windows]
-path = "/git/windows-rs/crates/libs/windows"
+version = "0.51"
 features = [
     "implement",
     "Foundation",
@@ -16,8 +16,8 @@ features = [
 ]
 
 [build-dependencies.windows-bindgen]
-path = "/git/windows-rs/crates/libs/bindgen"
+version = "0.51"
 
-# Note: https://github.com/rust-lang/cargo/issues/7825
+# Bug: https://github.com/rust-lang/cargo/issues/7825
 [build-dependencies.server]
 path = "../server"

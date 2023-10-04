@@ -11,106 +11,306 @@ impl bindings::IReader_Impl for Reader {
         // and not create a copy.
         Ok(h!("P0").clone())
     }
-    fn P1(&self) -> Result<HSTRING> { Ok(h!("P1").clone()) }
-    fn P2(&self) -> Result<HSTRING> { Ok(h!("P2").clone()) }
-    fn P3(&self) -> Result<HSTRING> { Ok(h!("P3").clone()) }
-    fn P4(&self) -> Result<HSTRING> { Ok(h!("P4").clone()) }
-    fn P5(&self) -> Result<HSTRING> { Ok(h!("P5").clone()) }
-    fn P6(&self) -> Result<HSTRING> { Ok(h!("P6").clone()) }
-    fn P7(&self) -> Result<HSTRING> { Ok(h!("P7").clone()) }
-    fn P8(&self) -> Result<HSTRING> { Ok(h!("P8").clone()) }
-    fn P9(&self) -> Result<HSTRING> { Ok(h!("P9").clone()) }
-    fn P10(&self) -> Result<HSTRING> { Ok(h!("P10").clone()) }
-    fn P11(&self) -> Result<HSTRING> { Ok(h!("P11").clone()) }
-    fn P12(&self) -> Result<HSTRING> { Ok(h!("P12").clone()) }
-    fn P13(&self) -> Result<HSTRING> { Ok(h!("P13").clone()) }
-    fn P14(&self) -> Result<HSTRING> { Ok(h!("P14").clone()) }
-    fn P15(&self) -> Result<HSTRING> { Ok(h!("P15").clone()) }
-    fn P16(&self) -> Result<HSTRING> { Ok(h!("P16").clone()) }
-    fn P17(&self) -> Result<HSTRING> { Ok(h!("P17").clone()) }
-    fn P18(&self) -> Result<HSTRING> { Ok(h!("P18").clone()) }
-    fn P19(&self) -> Result<HSTRING> { Ok(h!("P19").clone()) }
-    fn P20(&self) -> Result<HSTRING> { Ok(h!("P20").clone()) }
-    fn P21(&self) -> Result<HSTRING> { Ok(h!("P21").clone()) }
-    fn P22(&self) -> Result<HSTRING> { Ok(h!("P22").clone()) }
-    fn P23(&self) -> Result<HSTRING> { Ok(h!("P23").clone()) }
-    fn P24(&self) -> Result<HSTRING> { Ok(h!("P24").clone()) }
-    fn P25(&self) -> Result<HSTRING> { Ok(h!("P25").clone()) }
-    fn P26(&self) -> Result<HSTRING> { Ok(h!("P26").clone()) }
-    fn P27(&self) -> Result<HSTRING> { Ok(h!("P27").clone()) }
-    fn P28(&self) -> Result<HSTRING> { Ok(h!("P28").clone()) }
-    fn P29(&self) -> Result<HSTRING> { Ok(h!("P29").clone()) }
-    fn P30(&self) -> Result<HSTRING> { Ok(h!("P30").clone()) }
-    fn P31(&self) -> Result<HSTRING> { Ok(h!("P31").clone()) }
-    fn P32(&self) -> Result<HSTRING> { Ok(h!("P32").clone()) }
-    fn P33(&self) -> Result<HSTRING> { Ok(h!("P33").clone()) }
-    fn P34(&self) -> Result<HSTRING> { Ok(h!("P34").clone()) }
-    fn P35(&self) -> Result<HSTRING> { Ok(h!("P35").clone()) }
-    fn P36(&self) -> Result<HSTRING> { Ok(h!("P36").clone()) }
-    fn P37(&self) -> Result<HSTRING> { Ok(h!("P37").clone()) }
-    fn P38(&self) -> Result<HSTRING> { Ok(h!("P38").clone()) }
-    fn P39(&self) -> Result<HSTRING> { Ok(h!("P39").clone()) }
-    fn P40(&self) -> Result<HSTRING> { Ok(h!("P40").clone()) }
-    fn P41(&self) -> Result<HSTRING> { Ok(h!("P41").clone()) }
-    fn P42(&self) -> Result<HSTRING> { Ok(h!("P42").clone()) }
-    fn P43(&self) -> Result<HSTRING> { Ok(h!("P43").clone()) }
-    fn P44(&self) -> Result<HSTRING> { Ok(h!("P44").clone()) }
-    fn P45(&self) -> Result<HSTRING> { Ok(h!("P45").clone()) }
-    fn P46(&self) -> Result<HSTRING> { Ok(h!("P46").clone()) }
-    fn P47(&self) -> Result<HSTRING> { Ok(h!("P47").clone()) }
-    fn P48(&self) -> Result<HSTRING> { Ok(h!("P48").clone()) }
-    fn P49(&self) -> Result<HSTRING> { Ok(h!("P49").clone()) }
-    fn P50(&self) -> Result<HSTRING> { Ok(h!("P50").clone()) }
-    fn P51(&self) -> Result<HSTRING> { Ok(h!("P51").clone()) }
-    fn P52(&self) -> Result<HSTRING> { Ok(h!("P52").clone()) }
-    fn P53(&self) -> Result<HSTRING> { Ok(h!("P53").clone()) }
-    fn P54(&self) -> Result<HSTRING> { Ok(h!("P54").clone()) }
-    fn P55(&self) -> Result<HSTRING> { Ok(h!("P55").clone()) }
-    fn P56(&self) -> Result<HSTRING> { Ok(h!("P56").clone()) }
-    fn P57(&self) -> Result<HSTRING> { Ok(h!("P57").clone()) }
-    fn P58(&self) -> Result<HSTRING> { Ok(h!("P58").clone()) }
-    fn P59(&self) -> Result<HSTRING> { Ok(h!("P59").clone()) }
-    fn P60(&self) -> Result<HSTRING> { Ok(h!("P60").clone()) }
-    fn P61(&self) -> Result<HSTRING> { Ok(h!("P61").clone()) }
-    fn P62(&self) -> Result<HSTRING> { Ok(h!("P62").clone()) }
-    fn P63(&self) -> Result<HSTRING> { Ok(h!("P63").clone()) }
-    fn P64(&self) -> Result<HSTRING> { Ok(h!("P64").clone()) }
-    fn P65(&self) -> Result<HSTRING> { Ok(h!("P65").clone()) }
-    fn P66(&self) -> Result<HSTRING> { Ok(h!("P66").clone()) }
-    fn P67(&self) -> Result<HSTRING> { Ok(h!("P67").clone()) }
-    fn P68(&self) -> Result<HSTRING> { Ok(h!("P68").clone()) }
-    fn P69(&self) -> Result<HSTRING> { Ok(h!("P69").clone()) }
-    fn P70(&self) -> Result<HSTRING> { Ok(h!("P70").clone()) }
-    fn P71(&self) -> Result<HSTRING> { Ok(h!("P71").clone()) }
-    fn P72(&self) -> Result<HSTRING> { Ok(h!("P72").clone()) }
-    fn P73(&self) -> Result<HSTRING> { Ok(h!("P73").clone()) }
-    fn P74(&self) -> Result<HSTRING> { Ok(h!("P74").clone()) }
-    fn P75(&self) -> Result<HSTRING> { Ok(h!("P75").clone()) }
-    fn P76(&self) -> Result<HSTRING> { Ok(h!("P76").clone()) }
-    fn P77(&self) -> Result<HSTRING> { Ok(h!("P77").clone()) }
-    fn P78(&self) -> Result<HSTRING> { Ok(h!("P78").clone()) }
-    fn P79(&self) -> Result<HSTRING> { Ok(h!("P79").clone()) }
-    fn P80(&self) -> Result<HSTRING> { Ok(h!("P80").clone()) }
-    fn P81(&self) -> Result<HSTRING> { Ok(h!("P81").clone()) }
-    fn P82(&self) -> Result<HSTRING> { Ok(h!("P82").clone()) }
-    fn P83(&self) -> Result<HSTRING> { Ok(h!("P83").clone()) }
-    fn P84(&self) -> Result<HSTRING> { Ok(h!("P84").clone()) }
-    fn P85(&self) -> Result<HSTRING> { Ok(h!("P85").clone()) }
-    fn P86(&self) -> Result<HSTRING> { Ok(h!("P86").clone()) }
-    fn P87(&self) -> Result<HSTRING> { Ok(h!("P87").clone()) }
-    fn P88(&self) -> Result<HSTRING> { Ok(h!("P88").clone()) }
-    fn P89(&self) -> Result<HSTRING> { Ok(h!("P89").clone()) }
-    fn P90(&self) -> Result<HSTRING> { Ok(h!("P90").clone()) }
-    fn P91(&self) -> Result<HSTRING> { Ok(h!("P91").clone()) }
-    fn P92(&self) -> Result<HSTRING> { Ok(h!("P92").clone()) }
-    fn P93(&self) -> Result<HSTRING> { Ok(h!("P93").clone()) }
-    fn P94(&self) -> Result<HSTRING> { Ok(h!("P94").clone()) }
-    fn P95(&self) -> Result<HSTRING> { Ok(h!("P95").clone()) }
-    fn P96(&self) -> Result<HSTRING> { Ok(h!("P96").clone()) }
-    fn P97(&self) -> Result<HSTRING> { Ok(h!("P97").clone()) }
-    fn P98(&self) -> Result<HSTRING> { Ok(h!("P98").clone()) }
-    fn P99(&self) -> Result<HSTRING> { Ok(h!("P99").clone()) }
-    fn P100(&self) -> Result<HSTRING> { Ok(h!("P100").clone()) }
+    fn P1(&self) -> Result<HSTRING> {
+        Ok(h!("P1").clone())
+    }
+    fn P2(&self) -> Result<HSTRING> {
+        Ok(h!("P2").clone())
+    }
+    fn P3(&self) -> Result<HSTRING> {
+        Ok(h!("P3").clone())
+    }
+    fn P4(&self) -> Result<HSTRING> {
+        Ok(h!("P4").clone())
+    }
+    fn P5(&self) -> Result<HSTRING> {
+        Ok(h!("P5").clone())
+    }
+    fn P6(&self) -> Result<HSTRING> {
+        Ok(h!("P6").clone())
+    }
+    fn P7(&self) -> Result<HSTRING> {
+        Ok(h!("P7").clone())
+    }
+    fn P8(&self) -> Result<HSTRING> {
+        Ok(h!("P8").clone())
+    }
+    fn P9(&self) -> Result<HSTRING> {
+        Ok(h!("P9").clone())
+    }
+    fn P10(&self) -> Result<HSTRING> {
+        Ok(h!("P10").clone())
+    }
+    fn P11(&self) -> Result<HSTRING> {
+        Ok(h!("P11").clone())
+    }
+    fn P12(&self) -> Result<HSTRING> {
+        Ok(h!("P12").clone())
+    }
+    fn P13(&self) -> Result<HSTRING> {
+        Ok(h!("P13").clone())
+    }
+    fn P14(&self) -> Result<HSTRING> {
+        Ok(h!("P14").clone())
+    }
+    fn P15(&self) -> Result<HSTRING> {
+        Ok(h!("P15").clone())
+    }
+    fn P16(&self) -> Result<HSTRING> {
+        Ok(h!("P16").clone())
+    }
+    fn P17(&self) -> Result<HSTRING> {
+        Ok(h!("P17").clone())
+    }
+    fn P18(&self) -> Result<HSTRING> {
+        Ok(h!("P18").clone())
+    }
+    fn P19(&self) -> Result<HSTRING> {
+        Ok(h!("P19").clone())
+    }
+    fn P20(&self) -> Result<HSTRING> {
+        Ok(h!("P20").clone())
+    }
+    fn P21(&self) -> Result<HSTRING> {
+        Ok(h!("P21").clone())
+    }
+    fn P22(&self) -> Result<HSTRING> {
+        Ok(h!("P22").clone())
+    }
+    fn P23(&self) -> Result<HSTRING> {
+        Ok(h!("P23").clone())
+    }
+    fn P24(&self) -> Result<HSTRING> {
+        Ok(h!("P24").clone())
+    }
+    fn P25(&self) -> Result<HSTRING> {
+        Ok(h!("P25").clone())
+    }
+    fn P26(&self) -> Result<HSTRING> {
+        Ok(h!("P26").clone())
+    }
+    fn P27(&self) -> Result<HSTRING> {
+        Ok(h!("P27").clone())
+    }
+    fn P28(&self) -> Result<HSTRING> {
+        Ok(h!("P28").clone())
+    }
+    fn P29(&self) -> Result<HSTRING> {
+        Ok(h!("P29").clone())
+    }
+    fn P30(&self) -> Result<HSTRING> {
+        Ok(h!("P30").clone())
+    }
+    fn P31(&self) -> Result<HSTRING> {
+        Ok(h!("P31").clone())
+    }
+    fn P32(&self) -> Result<HSTRING> {
+        Ok(h!("P32").clone())
+    }
+    fn P33(&self) -> Result<HSTRING> {
+        Ok(h!("P33").clone())
+    }
+    fn P34(&self) -> Result<HSTRING> {
+        Ok(h!("P34").clone())
+    }
+    fn P35(&self) -> Result<HSTRING> {
+        Ok(h!("P35").clone())
+    }
+    fn P36(&self) -> Result<HSTRING> {
+        Ok(h!("P36").clone())
+    }
+    fn P37(&self) -> Result<HSTRING> {
+        Ok(h!("P37").clone())
+    }
+    fn P38(&self) -> Result<HSTRING> {
+        Ok(h!("P38").clone())
+    }
+    fn P39(&self) -> Result<HSTRING> {
+        Ok(h!("P39").clone())
+    }
+    fn P40(&self) -> Result<HSTRING> {
+        Ok(h!("P40").clone())
+    }
+    fn P41(&self) -> Result<HSTRING> {
+        Ok(h!("P41").clone())
+    }
+    fn P42(&self) -> Result<HSTRING> {
+        Ok(h!("P42").clone())
+    }
+    fn P43(&self) -> Result<HSTRING> {
+        Ok(h!("P43").clone())
+    }
+    fn P44(&self) -> Result<HSTRING> {
+        Ok(h!("P44").clone())
+    }
+    fn P45(&self) -> Result<HSTRING> {
+        Ok(h!("P45").clone())
+    }
+    fn P46(&self) -> Result<HSTRING> {
+        Ok(h!("P46").clone())
+    }
+    fn P47(&self) -> Result<HSTRING> {
+        Ok(h!("P47").clone())
+    }
+    fn P48(&self) -> Result<HSTRING> {
+        Ok(h!("P48").clone())
+    }
+    fn P49(&self) -> Result<HSTRING> {
+        Ok(h!("P49").clone())
+    }
+    fn P50(&self) -> Result<HSTRING> {
+        Ok(h!("P50").clone())
+    }
+    fn P51(&self) -> Result<HSTRING> {
+        Ok(h!("P51").clone())
+    }
+    fn P52(&self) -> Result<HSTRING> {
+        Ok(h!("P52").clone())
+    }
+    fn P53(&self) -> Result<HSTRING> {
+        Ok(h!("P53").clone())
+    }
+    fn P54(&self) -> Result<HSTRING> {
+        Ok(h!("P54").clone())
+    }
+    fn P55(&self) -> Result<HSTRING> {
+        Ok(h!("P55").clone())
+    }
+    fn P56(&self) -> Result<HSTRING> {
+        Ok(h!("P56").clone())
+    }
+    fn P57(&self) -> Result<HSTRING> {
+        Ok(h!("P57").clone())
+    }
+    fn P58(&self) -> Result<HSTRING> {
+        Ok(h!("P58").clone())
+    }
+    fn P59(&self) -> Result<HSTRING> {
+        Ok(h!("P59").clone())
+    }
+    fn P60(&self) -> Result<HSTRING> {
+        Ok(h!("P60").clone())
+    }
+    fn P61(&self) -> Result<HSTRING> {
+        Ok(h!("P61").clone())
+    }
+    fn P62(&self) -> Result<HSTRING> {
+        Ok(h!("P62").clone())
+    }
+    fn P63(&self) -> Result<HSTRING> {
+        Ok(h!("P63").clone())
+    }
+    fn P64(&self) -> Result<HSTRING> {
+        Ok(h!("P64").clone())
+    }
+    fn P65(&self) -> Result<HSTRING> {
+        Ok(h!("P65").clone())
+    }
+    fn P66(&self) -> Result<HSTRING> {
+        Ok(h!("P66").clone())
+    }
+    fn P67(&self) -> Result<HSTRING> {
+        Ok(h!("P67").clone())
+    }
+    fn P68(&self) -> Result<HSTRING> {
+        Ok(h!("P68").clone())
+    }
+    fn P69(&self) -> Result<HSTRING> {
+        Ok(h!("P69").clone())
+    }
+    fn P70(&self) -> Result<HSTRING> {
+        Ok(h!("P70").clone())
+    }
+    fn P71(&self) -> Result<HSTRING> {
+        Ok(h!("P71").clone())
+    }
+    fn P72(&self) -> Result<HSTRING> {
+        Ok(h!("P72").clone())
+    }
+    fn P73(&self) -> Result<HSTRING> {
+        Ok(h!("P73").clone())
+    }
+    fn P74(&self) -> Result<HSTRING> {
+        Ok(h!("P74").clone())
+    }
+    fn P75(&self) -> Result<HSTRING> {
+        Ok(h!("P75").clone())
+    }
+    fn P76(&self) -> Result<HSTRING> {
+        Ok(h!("P76").clone())
+    }
+    fn P77(&self) -> Result<HSTRING> {
+        Ok(h!("P77").clone())
+    }
+    fn P78(&self) -> Result<HSTRING> {
+        Ok(h!("P78").clone())
+    }
+    fn P79(&self) -> Result<HSTRING> {
+        Ok(h!("P79").clone())
+    }
+    fn P80(&self) -> Result<HSTRING> {
+        Ok(h!("P80").clone())
+    }
+    fn P81(&self) -> Result<HSTRING> {
+        Ok(h!("P81").clone())
+    }
+    fn P82(&self) -> Result<HSTRING> {
+        Ok(h!("P82").clone())
+    }
+    fn P83(&self) -> Result<HSTRING> {
+        Ok(h!("P83").clone())
+    }
+    fn P84(&self) -> Result<HSTRING> {
+        Ok(h!("P84").clone())
+    }
+    fn P85(&self) -> Result<HSTRING> {
+        Ok(h!("P85").clone())
+    }
+    fn P86(&self) -> Result<HSTRING> {
+        Ok(h!("P86").clone())
+    }
+    fn P87(&self) -> Result<HSTRING> {
+        Ok(h!("P87").clone())
+    }
+    fn P88(&self) -> Result<HSTRING> {
+        Ok(h!("P88").clone())
+    }
+    fn P89(&self) -> Result<HSTRING> {
+        Ok(h!("P89").clone())
+    }
+    fn P90(&self) -> Result<HSTRING> {
+        Ok(h!("P90").clone())
+    }
+    fn P91(&self) -> Result<HSTRING> {
+        Ok(h!("P91").clone())
+    }
+    fn P92(&self) -> Result<HSTRING> {
+        Ok(h!("P92").clone())
+    }
+    fn P93(&self) -> Result<HSTRING> {
+        Ok(h!("P93").clone())
+    }
+    fn P94(&self) -> Result<HSTRING> {
+        Ok(h!("P94").clone())
+    }
+    fn P95(&self) -> Result<HSTRING> {
+        Ok(h!("P95").clone())
+    }
+    fn P96(&self) -> Result<HSTRING> {
+        Ok(h!("P96").clone())
+    }
+    fn P97(&self) -> Result<HSTRING> {
+        Ok(h!("P97").clone())
+    }
+    fn P98(&self) -> Result<HSTRING> {
+        Ok(h!("P98").clone())
+    }
+    fn P99(&self) -> Result<HSTRING> {
+        Ok(h!("P99").clone())
+    }
+    fn P100(&self) -> Result<HSTRING> {
+        Ok(h!("P100").clone())
+    }
 }
 
 #[implement(IActivationFactory)]
@@ -155,8 +355,8 @@ impl bindings::IWriter_Impl for Writer {
         writer[2] = p2.clone();
         Ok(())
     }
-    
-fn P3(&self) -> Result<HSTRING> {
+
+    fn P3(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[3].clone())
     }
@@ -165,8 +365,8 @@ fn P3(&self) -> Result<HSTRING> {
         writer[3] = p3.clone();
         Ok(())
     }
-    
-fn P4(&self) -> Result<HSTRING> {
+
+    fn P4(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[4].clone())
     }
@@ -175,8 +375,8 @@ fn P4(&self) -> Result<HSTRING> {
         writer[4] = p4.clone();
         Ok(())
     }
-    
-fn P5(&self) -> Result<HSTRING> {
+
+    fn P5(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[5].clone())
     }
@@ -185,8 +385,8 @@ fn P5(&self) -> Result<HSTRING> {
         writer[5] = p5.clone();
         Ok(())
     }
-    
-fn P6(&self) -> Result<HSTRING> {
+
+    fn P6(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[6].clone())
     }
@@ -195,8 +395,8 @@ fn P6(&self) -> Result<HSTRING> {
         writer[6] = p6.clone();
         Ok(())
     }
-    
-fn P7(&self) -> Result<HSTRING> {
+
+    fn P7(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[7].clone())
     }
@@ -205,8 +405,8 @@ fn P7(&self) -> Result<HSTRING> {
         writer[7] = p7.clone();
         Ok(())
     }
-    
-fn P8(&self) -> Result<HSTRING> {
+
+    fn P8(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[8].clone())
     }
@@ -215,8 +415,8 @@ fn P8(&self) -> Result<HSTRING> {
         writer[8] = p8.clone();
         Ok(())
     }
-    
-fn P9(&self) -> Result<HSTRING> {
+
+    fn P9(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[9].clone())
     }
@@ -225,8 +425,8 @@ fn P9(&self) -> Result<HSTRING> {
         writer[9] = p9.clone();
         Ok(())
     }
-    
-fn P10(&self) -> Result<HSTRING> {
+
+    fn P10(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[10].clone())
     }
@@ -235,8 +435,8 @@ fn P10(&self) -> Result<HSTRING> {
         writer[10] = p10.clone();
         Ok(())
     }
-    
-fn P11(&self) -> Result<HSTRING> {
+
+    fn P11(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[11].clone())
     }
@@ -245,8 +445,8 @@ fn P11(&self) -> Result<HSTRING> {
         writer[11] = p11.clone();
         Ok(())
     }
-    
-fn P12(&self) -> Result<HSTRING> {
+
+    fn P12(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[12].clone())
     }
@@ -255,8 +455,8 @@ fn P12(&self) -> Result<HSTRING> {
         writer[12] = p12.clone();
         Ok(())
     }
-    
-fn P13(&self) -> Result<HSTRING> {
+
+    fn P13(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[13].clone())
     }
@@ -265,8 +465,8 @@ fn P13(&self) -> Result<HSTRING> {
         writer[13] = p13.clone();
         Ok(())
     }
-    
-fn P14(&self) -> Result<HSTRING> {
+
+    fn P14(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[14].clone())
     }
@@ -275,8 +475,8 @@ fn P14(&self) -> Result<HSTRING> {
         writer[14] = p14.clone();
         Ok(())
     }
-    
-fn P15(&self) -> Result<HSTRING> {
+
+    fn P15(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[15].clone())
     }
@@ -285,8 +485,8 @@ fn P15(&self) -> Result<HSTRING> {
         writer[15] = p15.clone();
         Ok(())
     }
-    
-fn P16(&self) -> Result<HSTRING> {
+
+    fn P16(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[16].clone())
     }
@@ -295,8 +495,8 @@ fn P16(&self) -> Result<HSTRING> {
         writer[16] = p16.clone();
         Ok(())
     }
-    
-fn P17(&self) -> Result<HSTRING> {
+
+    fn P17(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[17].clone())
     }
@@ -305,8 +505,8 @@ fn P17(&self) -> Result<HSTRING> {
         writer[17] = p17.clone();
         Ok(())
     }
-    
-fn P18(&self) -> Result<HSTRING> {
+
+    fn P18(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[18].clone())
     }
@@ -315,8 +515,8 @@ fn P18(&self) -> Result<HSTRING> {
         writer[18] = p18.clone();
         Ok(())
     }
-    
-fn P19(&self) -> Result<HSTRING> {
+
+    fn P19(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[19].clone())
     }
@@ -325,8 +525,8 @@ fn P19(&self) -> Result<HSTRING> {
         writer[19] = p19.clone();
         Ok(())
     }
-    
-fn P20(&self) -> Result<HSTRING> {
+
+    fn P20(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[20].clone())
     }
@@ -335,8 +535,8 @@ fn P20(&self) -> Result<HSTRING> {
         writer[20] = p20.clone();
         Ok(())
     }
-    
-fn P21(&self) -> Result<HSTRING> {
+
+    fn P21(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[21].clone())
     }
@@ -345,8 +545,8 @@ fn P21(&self) -> Result<HSTRING> {
         writer[21] = p21.clone();
         Ok(())
     }
-    
-fn P22(&self) -> Result<HSTRING> {
+
+    fn P22(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[22].clone())
     }
@@ -355,8 +555,8 @@ fn P22(&self) -> Result<HSTRING> {
         writer[22] = p22.clone();
         Ok(())
     }
-    
-fn P23(&self) -> Result<HSTRING> {
+
+    fn P23(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[23].clone())
     }
@@ -365,8 +565,8 @@ fn P23(&self) -> Result<HSTRING> {
         writer[23] = p23.clone();
         Ok(())
     }
-    
-fn P24(&self) -> Result<HSTRING> {
+
+    fn P24(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[24].clone())
     }
@@ -375,8 +575,8 @@ fn P24(&self) -> Result<HSTRING> {
         writer[24] = p24.clone();
         Ok(())
     }
-    
-fn P25(&self) -> Result<HSTRING> {
+
+    fn P25(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[25].clone())
     }
@@ -385,8 +585,8 @@ fn P25(&self) -> Result<HSTRING> {
         writer[25] = p25.clone();
         Ok(())
     }
-    
-fn P26(&self) -> Result<HSTRING> {
+
+    fn P26(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[26].clone())
     }
@@ -395,8 +595,8 @@ fn P26(&self) -> Result<HSTRING> {
         writer[26] = p26.clone();
         Ok(())
     }
-    
-fn P27(&self) -> Result<HSTRING> {
+
+    fn P27(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[27].clone())
     }
@@ -405,8 +605,8 @@ fn P27(&self) -> Result<HSTRING> {
         writer[27] = p27.clone();
         Ok(())
     }
-    
-fn P28(&self) -> Result<HSTRING> {
+
+    fn P28(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[28].clone())
     }
@@ -415,8 +615,8 @@ fn P28(&self) -> Result<HSTRING> {
         writer[28] = p28.clone();
         Ok(())
     }
-    
-fn P29(&self) -> Result<HSTRING> {
+
+    fn P29(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[29].clone())
     }
@@ -425,8 +625,8 @@ fn P29(&self) -> Result<HSTRING> {
         writer[29] = p29.clone();
         Ok(())
     }
-    
-fn P30(&self) -> Result<HSTRING> {
+
+    fn P30(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[30].clone())
     }
@@ -435,8 +635,8 @@ fn P30(&self) -> Result<HSTRING> {
         writer[30] = p30.clone();
         Ok(())
     }
-    
-fn P31(&self) -> Result<HSTRING> {
+
+    fn P31(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[31].clone())
     }
@@ -445,8 +645,8 @@ fn P31(&self) -> Result<HSTRING> {
         writer[31] = p31.clone();
         Ok(())
     }
-    
-fn P32(&self) -> Result<HSTRING> {
+
+    fn P32(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[32].clone())
     }
@@ -455,8 +655,8 @@ fn P32(&self) -> Result<HSTRING> {
         writer[32] = p32.clone();
         Ok(())
     }
-    
-fn P33(&self) -> Result<HSTRING> {
+
+    fn P33(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[33].clone())
     }
@@ -465,8 +665,8 @@ fn P33(&self) -> Result<HSTRING> {
         writer[33] = p33.clone();
         Ok(())
     }
-    
-fn P34(&self) -> Result<HSTRING> {
+
+    fn P34(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[34].clone())
     }
@@ -475,8 +675,8 @@ fn P34(&self) -> Result<HSTRING> {
         writer[34] = p34.clone();
         Ok(())
     }
-    
-fn P35(&self) -> Result<HSTRING> {
+
+    fn P35(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[35].clone())
     }
@@ -485,8 +685,8 @@ fn P35(&self) -> Result<HSTRING> {
         writer[35] = p35.clone();
         Ok(())
     }
-    
-fn P36(&self) -> Result<HSTRING> {
+
+    fn P36(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[36].clone())
     }
@@ -495,8 +695,8 @@ fn P36(&self) -> Result<HSTRING> {
         writer[36] = p36.clone();
         Ok(())
     }
-    
-fn P37(&self) -> Result<HSTRING> {
+
+    fn P37(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[37].clone())
     }
@@ -505,8 +705,8 @@ fn P37(&self) -> Result<HSTRING> {
         writer[37] = p37.clone();
         Ok(())
     }
-    
-fn P38(&self) -> Result<HSTRING> {
+
+    fn P38(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[38].clone())
     }
@@ -515,8 +715,8 @@ fn P38(&self) -> Result<HSTRING> {
         writer[38] = p38.clone();
         Ok(())
     }
-    
-fn P39(&self) -> Result<HSTRING> {
+
+    fn P39(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[39].clone())
     }
@@ -525,8 +725,8 @@ fn P39(&self) -> Result<HSTRING> {
         writer[39] = p39.clone();
         Ok(())
     }
-    
-fn P40(&self) -> Result<HSTRING> {
+
+    fn P40(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[40].clone())
     }
@@ -535,8 +735,8 @@ fn P40(&self) -> Result<HSTRING> {
         writer[40] = p40.clone();
         Ok(())
     }
-    
-fn P41(&self) -> Result<HSTRING> {
+
+    fn P41(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[41].clone())
     }
@@ -545,8 +745,8 @@ fn P41(&self) -> Result<HSTRING> {
         writer[41] = p41.clone();
         Ok(())
     }
-    
-fn P42(&self) -> Result<HSTRING> {
+
+    fn P42(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[42].clone())
     }
@@ -555,8 +755,8 @@ fn P42(&self) -> Result<HSTRING> {
         writer[42] = p42.clone();
         Ok(())
     }
-    
-fn P43(&self) -> Result<HSTRING> {
+
+    fn P43(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[43].clone())
     }
@@ -565,8 +765,8 @@ fn P43(&self) -> Result<HSTRING> {
         writer[43] = p43.clone();
         Ok(())
     }
-    
-fn P44(&self) -> Result<HSTRING> {
+
+    fn P44(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[44].clone())
     }
@@ -575,8 +775,8 @@ fn P44(&self) -> Result<HSTRING> {
         writer[44] = p44.clone();
         Ok(())
     }
-    
-fn P45(&self) -> Result<HSTRING> {
+
+    fn P45(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[45].clone())
     }
@@ -585,8 +785,8 @@ fn P45(&self) -> Result<HSTRING> {
         writer[45] = p45.clone();
         Ok(())
     }
-    
-fn P46(&self) -> Result<HSTRING> {
+
+    fn P46(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[46].clone())
     }
@@ -595,8 +795,8 @@ fn P46(&self) -> Result<HSTRING> {
         writer[46] = p46.clone();
         Ok(())
     }
-    
-fn P47(&self) -> Result<HSTRING> {
+
+    fn P47(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[47].clone())
     }
@@ -605,8 +805,8 @@ fn P47(&self) -> Result<HSTRING> {
         writer[47] = p47.clone();
         Ok(())
     }
-    
-fn P48(&self) -> Result<HSTRING> {
+
+    fn P48(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[48].clone())
     }
@@ -615,8 +815,8 @@ fn P48(&self) -> Result<HSTRING> {
         writer[48] = p48.clone();
         Ok(())
     }
-    
-fn P49(&self) -> Result<HSTRING> {
+
+    fn P49(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[49].clone())
     }
@@ -625,8 +825,8 @@ fn P49(&self) -> Result<HSTRING> {
         writer[49] = p49.clone();
         Ok(())
     }
-    
-fn P50(&self) -> Result<HSTRING> {
+
+    fn P50(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[50].clone())
     }
@@ -635,8 +835,8 @@ fn P50(&self) -> Result<HSTRING> {
         writer[50] = p50.clone();
         Ok(())
     }
-    
-fn P51(&self) -> Result<HSTRING> {
+
+    fn P51(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[51].clone())
     }
@@ -645,8 +845,8 @@ fn P51(&self) -> Result<HSTRING> {
         writer[51] = p51.clone();
         Ok(())
     }
-    
-fn P52(&self) -> Result<HSTRING> {
+
+    fn P52(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[52].clone())
     }
@@ -655,8 +855,8 @@ fn P52(&self) -> Result<HSTRING> {
         writer[52] = p52.clone();
         Ok(())
     }
-    
-fn P53(&self) -> Result<HSTRING> {
+
+    fn P53(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[53].clone())
     }
@@ -665,8 +865,8 @@ fn P53(&self) -> Result<HSTRING> {
         writer[53] = p53.clone();
         Ok(())
     }
-    
-fn P54(&self) -> Result<HSTRING> {
+
+    fn P54(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[54].clone())
     }
@@ -675,8 +875,8 @@ fn P54(&self) -> Result<HSTRING> {
         writer[54] = p54.clone();
         Ok(())
     }
-    
-fn P55(&self) -> Result<HSTRING> {
+
+    fn P55(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[55].clone())
     }
@@ -685,8 +885,8 @@ fn P55(&self) -> Result<HSTRING> {
         writer[55] = p55.clone();
         Ok(())
     }
-    
-fn P56(&self) -> Result<HSTRING> {
+
+    fn P56(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[56].clone())
     }
@@ -695,8 +895,8 @@ fn P56(&self) -> Result<HSTRING> {
         writer[56] = p56.clone();
         Ok(())
     }
-    
-fn P57(&self) -> Result<HSTRING> {
+
+    fn P57(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[57].clone())
     }
@@ -705,8 +905,8 @@ fn P57(&self) -> Result<HSTRING> {
         writer[57] = p57.clone();
         Ok(())
     }
-    
-fn P58(&self) -> Result<HSTRING> {
+
+    fn P58(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[58].clone())
     }
@@ -715,8 +915,8 @@ fn P58(&self) -> Result<HSTRING> {
         writer[58] = p58.clone();
         Ok(())
     }
-    
-fn P59(&self) -> Result<HSTRING> {
+
+    fn P59(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[59].clone())
     }
@@ -725,8 +925,8 @@ fn P59(&self) -> Result<HSTRING> {
         writer[59] = p59.clone();
         Ok(())
     }
-    
-fn P60(&self) -> Result<HSTRING> {
+
+    fn P60(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[60].clone())
     }
@@ -735,8 +935,8 @@ fn P60(&self) -> Result<HSTRING> {
         writer[60] = p60.clone();
         Ok(())
     }
-    
-fn P61(&self) -> Result<HSTRING> {
+
+    fn P61(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[61].clone())
     }
@@ -745,8 +945,8 @@ fn P61(&self) -> Result<HSTRING> {
         writer[61] = p61.clone();
         Ok(())
     }
-    
-fn P62(&self) -> Result<HSTRING> {
+
+    fn P62(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[62].clone())
     }
@@ -755,8 +955,8 @@ fn P62(&self) -> Result<HSTRING> {
         writer[62] = p62.clone();
         Ok(())
     }
-    
-fn P63(&self) -> Result<HSTRING> {
+
+    fn P63(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[63].clone())
     }
@@ -765,8 +965,8 @@ fn P63(&self) -> Result<HSTRING> {
         writer[63] = p63.clone();
         Ok(())
     }
-    
-fn P64(&self) -> Result<HSTRING> {
+
+    fn P64(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[64].clone())
     }
@@ -775,8 +975,8 @@ fn P64(&self) -> Result<HSTRING> {
         writer[64] = p64.clone();
         Ok(())
     }
-    
-fn P65(&self) -> Result<HSTRING> {
+
+    fn P65(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[65].clone())
     }
@@ -785,8 +985,8 @@ fn P65(&self) -> Result<HSTRING> {
         writer[65] = p65.clone();
         Ok(())
     }
-    
-fn P66(&self) -> Result<HSTRING> {
+
+    fn P66(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[66].clone())
     }
@@ -795,8 +995,8 @@ fn P66(&self) -> Result<HSTRING> {
         writer[66] = p66.clone();
         Ok(())
     }
-    
-fn P67(&self) -> Result<HSTRING> {
+
+    fn P67(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[67].clone())
     }
@@ -805,8 +1005,8 @@ fn P67(&self) -> Result<HSTRING> {
         writer[67] = p67.clone();
         Ok(())
     }
-    
-fn P68(&self) -> Result<HSTRING> {
+
+    fn P68(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[68].clone())
     }
@@ -815,8 +1015,8 @@ fn P68(&self) -> Result<HSTRING> {
         writer[68] = p68.clone();
         Ok(())
     }
-    
-fn P69(&self) -> Result<HSTRING> {
+
+    fn P69(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[69].clone())
     }
@@ -825,8 +1025,8 @@ fn P69(&self) -> Result<HSTRING> {
         writer[69] = p69.clone();
         Ok(())
     }
-    
-fn P70(&self) -> Result<HSTRING> {
+
+    fn P70(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[70].clone())
     }
@@ -835,8 +1035,8 @@ fn P70(&self) -> Result<HSTRING> {
         writer[70] = p70.clone();
         Ok(())
     }
-    
-fn P71(&self) -> Result<HSTRING> {
+
+    fn P71(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[71].clone())
     }
@@ -845,8 +1045,8 @@ fn P71(&self) -> Result<HSTRING> {
         writer[71] = p71.clone();
         Ok(())
     }
-    
-fn P72(&self) -> Result<HSTRING> {
+
+    fn P72(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[72].clone())
     }
@@ -855,8 +1055,8 @@ fn P72(&self) -> Result<HSTRING> {
         writer[72] = p72.clone();
         Ok(())
     }
-    
-fn P73(&self) -> Result<HSTRING> {
+
+    fn P73(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[73].clone())
     }
@@ -865,8 +1065,8 @@ fn P73(&self) -> Result<HSTRING> {
         writer[73] = p73.clone();
         Ok(())
     }
-    
-fn P74(&self) -> Result<HSTRING> {
+
+    fn P74(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[74].clone())
     }
@@ -875,8 +1075,8 @@ fn P74(&self) -> Result<HSTRING> {
         writer[74] = p74.clone();
         Ok(())
     }
-    
-fn P75(&self) -> Result<HSTRING> {
+
+    fn P75(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[75].clone())
     }
@@ -885,8 +1085,8 @@ fn P75(&self) -> Result<HSTRING> {
         writer[75] = p75.clone();
         Ok(())
     }
-    
-fn P76(&self) -> Result<HSTRING> {
+
+    fn P76(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[76].clone())
     }
@@ -895,8 +1095,8 @@ fn P76(&self) -> Result<HSTRING> {
         writer[76] = p76.clone();
         Ok(())
     }
-    
-fn P77(&self) -> Result<HSTRING> {
+
+    fn P77(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[77].clone())
     }
@@ -905,8 +1105,8 @@ fn P77(&self) -> Result<HSTRING> {
         writer[77] = p77.clone();
         Ok(())
     }
-    
-fn P78(&self) -> Result<HSTRING> {
+
+    fn P78(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[78].clone())
     }
@@ -915,8 +1115,8 @@ fn P78(&self) -> Result<HSTRING> {
         writer[78] = p78.clone();
         Ok(())
     }
-    
-fn P79(&self) -> Result<HSTRING> {
+
+    fn P79(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[79].clone())
     }
@@ -925,8 +1125,8 @@ fn P79(&self) -> Result<HSTRING> {
         writer[79] = p79.clone();
         Ok(())
     }
-    
-fn P80(&self) -> Result<HSTRING> {
+
+    fn P80(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[80].clone())
     }
@@ -935,8 +1135,8 @@ fn P80(&self) -> Result<HSTRING> {
         writer[80] = p80.clone();
         Ok(())
     }
-    
-fn P81(&self) -> Result<HSTRING> {
+
+    fn P81(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[81].clone())
     }
@@ -945,8 +1145,8 @@ fn P81(&self) -> Result<HSTRING> {
         writer[81] = p81.clone();
         Ok(())
     }
-    
-fn P82(&self) -> Result<HSTRING> {
+
+    fn P82(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[82].clone())
     }
@@ -955,8 +1155,8 @@ fn P82(&self) -> Result<HSTRING> {
         writer[82] = p82.clone();
         Ok(())
     }
-    
-fn P83(&self) -> Result<HSTRING> {
+
+    fn P83(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[83].clone())
     }
@@ -965,8 +1165,8 @@ fn P83(&self) -> Result<HSTRING> {
         writer[83] = p83.clone();
         Ok(())
     }
-    
-fn P84(&self) -> Result<HSTRING> {
+
+    fn P84(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[84].clone())
     }
@@ -975,8 +1175,8 @@ fn P84(&self) -> Result<HSTRING> {
         writer[84] = p84.clone();
         Ok(())
     }
-    
-fn P85(&self) -> Result<HSTRING> {
+
+    fn P85(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[85].clone())
     }
@@ -985,8 +1185,8 @@ fn P85(&self) -> Result<HSTRING> {
         writer[85] = p85.clone();
         Ok(())
     }
-    
-fn P86(&self) -> Result<HSTRING> {
+
+    fn P86(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[86].clone())
     }
@@ -995,8 +1195,8 @@ fn P86(&self) -> Result<HSTRING> {
         writer[86] = p86.clone();
         Ok(())
     }
-    
-fn P87(&self) -> Result<HSTRING> {
+
+    fn P87(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[87].clone())
     }
@@ -1005,8 +1205,8 @@ fn P87(&self) -> Result<HSTRING> {
         writer[87] = p87.clone();
         Ok(())
     }
-    
-fn P88(&self) -> Result<HSTRING> {
+
+    fn P88(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[88].clone())
     }
@@ -1015,8 +1215,8 @@ fn P88(&self) -> Result<HSTRING> {
         writer[88] = p88.clone();
         Ok(())
     }
-    
-fn P89(&self) -> Result<HSTRING> {
+
+    fn P89(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[89].clone())
     }
@@ -1025,8 +1225,8 @@ fn P89(&self) -> Result<HSTRING> {
         writer[89] = p89.clone();
         Ok(())
     }
-    
-fn P90(&self) -> Result<HSTRING> {
+
+    fn P90(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[90].clone())
     }
@@ -1035,8 +1235,8 @@ fn P90(&self) -> Result<HSTRING> {
         writer[90] = p90.clone();
         Ok(())
     }
-    
-fn P91(&self) -> Result<HSTRING> {
+
+    fn P91(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[91].clone())
     }
@@ -1045,8 +1245,8 @@ fn P91(&self) -> Result<HSTRING> {
         writer[91] = p91.clone();
         Ok(())
     }
-    
-fn P92(&self) -> Result<HSTRING> {
+
+    fn P92(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[92].clone())
     }
@@ -1055,8 +1255,8 @@ fn P92(&self) -> Result<HSTRING> {
         writer[92] = p92.clone();
         Ok(())
     }
-    
-fn P93(&self) -> Result<HSTRING> {
+
+    fn P93(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[93].clone())
     }
@@ -1065,8 +1265,8 @@ fn P93(&self) -> Result<HSTRING> {
         writer[93] = p93.clone();
         Ok(())
     }
-    
-fn P94(&self) -> Result<HSTRING> {
+
+    fn P94(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[94].clone())
     }
@@ -1075,8 +1275,8 @@ fn P94(&self) -> Result<HSTRING> {
         writer[94] = p94.clone();
         Ok(())
     }
-    
-fn P95(&self) -> Result<HSTRING> {
+
+    fn P95(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[95].clone())
     }
@@ -1085,8 +1285,8 @@ fn P95(&self) -> Result<HSTRING> {
         writer[95] = p95.clone();
         Ok(())
     }
-    
-fn P96(&self) -> Result<HSTRING> {
+
+    fn P96(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[96].clone())
     }
@@ -1095,8 +1295,8 @@ fn P96(&self) -> Result<HSTRING> {
         writer[96] = p96.clone();
         Ok(())
     }
-    
-fn P97(&self) -> Result<HSTRING> {
+
+    fn P97(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[97].clone())
     }
@@ -1105,8 +1305,8 @@ fn P97(&self) -> Result<HSTRING> {
         writer[97] = p97.clone();
         Ok(())
     }
-    
-fn P98(&self) -> Result<HSTRING> {
+
+    fn P98(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[98].clone())
     }
@@ -1115,8 +1315,8 @@ fn P98(&self) -> Result<HSTRING> {
         writer[98] = p98.clone();
         Ok(())
     }
-    
-fn P99(&self) -> Result<HSTRING> {
+
+    fn P99(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[99].clone())
     }
@@ -1125,8 +1325,8 @@ fn P99(&self) -> Result<HSTRING> {
         writer[99] = p99.clone();
         Ok(())
     }
-    
-fn P100(&self) -> Result<HSTRING> {
+
+    fn P100(&self) -> Result<HSTRING> {
         let reader = self.0.read().unwrap();
         Ok(reader[100].clone())
     }
@@ -1135,8 +1335,6 @@ fn P100(&self) -> Result<HSTRING> {
         writer[100] = p100.clone();
         Ok(())
     }
-    
-
 }
 
 #[implement(IActivationFactory)]

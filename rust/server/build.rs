@@ -2,12 +2,9 @@ use windows_bindgen::*;
 
 fn main() {
     println!("cargo:rerun-if-changed=src/metadata.idl");
-
-    println!("cargo:rustc-link-arg=/OPT:ICF");
-
     let metadata_dir = format!("{}/System32/WinMetadata", env!("windir"));
-
     let mut command = std::process::Command::new("midlrt.exe");
+
     command
         .arg("/winrt")
         .arg("/nomidl")

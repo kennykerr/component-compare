@@ -8,10 +8,10 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies.windows-core]
-path = "/git/windows-rs/crates/libs/core"
+version = "0.51"
 
 [dependencies.windows]
-path = "/git/windows-rs/crates/libs/windows"
+version = "0.51"
 features = [
     "implement",
     "Foundation",
@@ -20,4 +20,4 @@ features = [
 ]
 
 [build-dependencies.windows-bindgen]
-path = "/git/windows-rs/crates/libs/bindgen"
+version = "0.51"
